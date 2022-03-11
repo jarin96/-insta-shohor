@@ -177,7 +177,6 @@ img {
 .post__indicator--active {
   background-color: var(--link);
 }
-
 .post__infos {
   display: flex;
   flex-direction: column;
