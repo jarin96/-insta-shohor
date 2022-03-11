@@ -57,6 +57,69 @@
             <h1>Reported posts</h1>
         </div>
     </main>
+    <section class="container">
+        <div class="mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/VaBP6_pBOgM/maxresdefault.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">How does javascript work?</h5>
+                            <p class="card-text">When we run javascript in our browser, every web browsers has
+                                javascript engine to run it.For Chrome browser to run javascript code, it has
+                                V8 javascript engine.For that javascript engine we can execute the code and can see our
+                                javascript code.
+                                In javascript engine there is parser that parse our every javascript code.If the
+                                javasciprt code is without any error then parser produces a data
+                                structure called Abstract syntax tree.The parser will create an Abstract syntax tree.If
+                                parser produce Abstract syntax tree then javascript code translate
+                                it to machine code with the help of Abstract syntax tree.Once the javascript converts
+                                into machine code.Then the actual javascript code runs.This is how the
+                                javascript work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://felixgerschau.com/static/79486d91b22a7c1b4044fce88a4cae20/5a190/js-event-loop-explained.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">what does Javascript event loop do?</h5>
+                            <p class="card-text">
+                                when javascript calls a function it creates a execution context in call stack.If
+                                setTimeout function is called in javascript code then it creates execution context
+                                in call stack.From call stack setTimeout sent to Web Apis.When the setTimeOut
+                                timer(4s) ends then it transfer the timer in task queue from Web Apis.
+                                Again, When javascript calls a function then it goes to the call stack and while the
+                                task queue
+                                is not empty it pull out the first item from task queue and follow the execution logic
+                                until the call stack is empty.The work of event loop is this it waits
+                                for the call stack to be empty then when the event loop found anything in task queue
+                                then it transfer it to the call stack.Once the call stack is empty the event loop
+                                triggers and look up the task queue for available callbacks, this is how the event loop
+                                works.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/media/FKsO3WeXIAYXhZ6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Difference between local storage and session storage?</h5>
+                            <p class="card-text">Session storage data has larger storage capacity to hold.Local storage
+                                has the highest memory capacity even compare to session storage.
+                                For local storage and session storage browsers are used for HTML5.
+                                Local storage is accessible in any window.On the other hand session storage is
+                                accessible for the same tab.
+                                Local storage can store data forever it has no expiry date.For session storage can store
+                                data till browser tab is closed.
+                                Local storage and session storage can not access Data Transfer HTTP Request.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer></footer>
 
     <!-- add javascript  file  -->
